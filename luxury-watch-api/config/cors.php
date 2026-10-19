@@ -19,7 +19,7 @@ return [
 
     'allowed_origins' => array_values(array_filter(array_map(
         'trim',
-        explode(',', env('CORS_ALLOWED_ORIGINS', 'http://localhost:3000,http://127.0.0.1:3000,https://[MY-REAL-PROJECT].vercel.app'))
+        explode(',', env('CORS_ALLOWED_ORIGINS', 'http://localhost:3000,http://127.0.0.1:3000,https://relox-commerce-frontend.vercel.app'))
     ))),
 
     'allowed_origins_patterns' => [],
